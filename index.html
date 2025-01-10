@@ -13,20 +13,27 @@
     <nav>
       <a href="#about">About Us</a>
       <a href="#menu">Menu</a>
+      <a href="#charts">Sales Data</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
   <section id="about">
     <h2>About Us</h2>
-    <p>We specialize in artisan breads and French pastries.</p>
+    <p>Gugu Bakery specializes in artisan European breads and French pastries, made fresh daily with the finest ingredients.</p>
   </section>
   <section id="menu">
     <h2>Our Menu</h2>
     <ul>
       <li>European Breads</li>
       <li>French Pastries</li>
+      <li>Seasonal Specials</li>
       <li>Beverages</li>
     </ul>
+  </section>
+  <section id="charts">
+    <h2>Sales Data</h2>
+    <canvas id="barChart" width="400" height="200"></canvas>
+    <canvas id="pieChart" width="400" height="200"></canvas>
   </section>
   <section id="contact">
     <h2>Contact Us</h2>
@@ -36,5 +43,7 @@
   <footer>
     <p>&copy; 2025 Gugu Bakery. All Rights Reserved.</p>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
